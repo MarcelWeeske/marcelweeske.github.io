@@ -1,0 +1,30 @@
+[
+	{
+		"dates": "July 2023 · Now",
+		"role": "Freelance Backend Engineer",
+		"company": "Self Employed",
+		"description": "Backend Development for different clients",
+		"logo": "/assets/images/experiences/ruhrcoder.svg"
+	},
+	{
+		"dates": "December 2021 · Now",
+		"role": "Co-Founder and Backend Engineer",
+		"company": "KissCoders UG",
+		"description": "Backend Development for different clients",
+		"logo": "/assets/images/experiences/ruhrcoder.svg"
+	},
+	{
+		"dates": "October 2018 · May 2021",
+		"role": "Data-Engineer",
+		"company": "Cognizant",
+		"description": "Data Network Development",
+		"logo": "/assets/images/experiences/cognizant.png"
+	},
+	{
+		"dates": "February 2018 · October 2018",
+		"role": "Embedded Systems Engineer",
+		"company": "Robert Bosch GmbH",
+		"description": "Development of Control and Evaluation Software",
+		"logo": "/assets/images/experiences/bosch.svg"
+	}
+]

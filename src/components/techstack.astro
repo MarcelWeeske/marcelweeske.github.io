@@ -1,0 +1,32 @@
+---
+import technologies from "../collections/technologies.json"
+import Technology from "./technology.astro";
+---
+
+<section class="relative z-20 mt-12 px-7 lg:px-0">
+  <div class="max-w-2xl mx-auto">
+    <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200 text-center">Tech Stack</h2>
+    <p class="text-center dark:text-neutral-200">Here you find a selection of the technologies I am working with.</p>
+  </div>
+  <div class="grid items-stretch w-full sm:grid-cols-2 md:grid-cols-5 gap-7 mt-16">
+    {
+      technologies.map((technology) => {
+        return (
+          <Technology
+            name={technology.name}
+            icon={technology.icon}
+          />
+        )
+      })
+    }
+  </div>
+</section>
+
+
+
+
+
+
+
+
+

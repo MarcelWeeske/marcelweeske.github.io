@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Phillip Matambanadzo",
+		"role": "Senior  Frontend Developer",
+    "company":"Mercedes Benz",
+		"text": "I have had the privilege of working with Marcel on various projects, and his expertise as a Backend and Data Engineer is a great addition to any Team . Marcel excels in creating scalable, high-performance systems and has a remarkable ability to solve complex problems. His work with AI solutions, microservices, and container orchestration showcases his technical versatility. Beyond his technical skills, Marcel is a collaborative team player who approaches every challenge with a positive attitude and a strong commitment to clean, maintainable code. I highly recommend Marcel for any software development or data engineering project.",
+		"image": "/assets/images/references/phillip.png"
+	},
+  {
+		"name": "Leander Fritsche",
+		"role": "CTO and Software Architect",
+    "company":"Auteon",
+		"text": "Ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+		"image": "/assets/images/photo.png"
+	}
+]
