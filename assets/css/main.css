@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
 @import url("fontawesome-all.min.css");
+
 
 /*
 	Miniport by HTML5 UP
@@ -98,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Exo 2', sans-serif;
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 300;
@@ -222,6 +223,15 @@ input, select, textarea {
 		}
 
 /* Container */
+	.highlighted-text {
+    color: #61be87!important  /* Text color for highlighting */
+	}
+
+	.underlined-text {
+		display: inline-block; /* Makes the element inline and allows for centering */
+		border-bottom: 2px solid #61be87; /* Create a solid bottom border with the desired color and thickness */
+		padding-bottom: 2px; /* Add some padding to separate the text from the line */
+	}
 
 	.container {
 		margin: 0 auto;
@@ -281,6 +291,40 @@ input, select, textarea {
 				}
 
 		}
+
+/* Devicon Icons */
+
+/* Style the container for each icon and description */
+.icon-container {
+	text-align: center;
+	margin: 10px;
+  }
+  
+  /* Style the icon */
+  .icon-container i.devicon {
+	font-size: 24px;
+  }
+  
+  /* Style the description text */
+  .icon-container p {
+	margin: 5px 0;
+	font-weight: bold;
+  }
+  
+  /* Arrange the first row of icons horizontally */
+  .icons-row {
+	display: flex;
+	justify-content: center; /* Center icons horizontally */
+	flex-wrap: wrap; /* Wrap to the next line if there's not enough space */
+  }
+  
+  /* Limit the width of each row to control the number of icons per row */
+  .icons-row:nth-child(1) {
+	max-width: 800px; /* Adjust the value as needed */
+  }
+  
+  
+  
 
 /* Row */
 
@@ -1891,6 +1935,7 @@ input, select, textarea {
 						background-color: transparent;
 					}
 
+					
 /* Actions */
 
 	ul.actions {
@@ -1911,7 +1956,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #fff;
+		background: #303030;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
@@ -1983,6 +2028,7 @@ input, select, textarea {
 			.icon.featured:before {
 				font-size: 6em;
 			}
+	
 
 /* Wrappers */
 
