@@ -1,12 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&family=JetBrains+Mono:wght@500&display=swap");
 @import url("fontawesome-all.min.css");
-
-
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -101,7 +94,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Exo 2', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: rgb(89, 88, 88);
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -223,6 +216,60 @@ input, select, textarea {
 		}
 
 /* Container */
+.education-entry {
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 10px;
+}
+
+.education-header {
+	font-size: 24px; /* Adjust the font size as needed */
+}
+.category {
+	align-items: baseline;
+	margin-bottom:  30px;
+	margin-top:30px
+}
+
+.education-container {
+	text-align: center; /* Center-align the header */
+}
+.education-details {
+	flex: 1;
+}
+
+.work-entry {
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 20px;
+	margin-top:20px;
+}
+
+.year {
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	margin-right: 20px; /* Add some spacing between year and details */
+}
+
+.work-details {
+	flex: 1;
+}
+
+.technologies {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.technology {
+	background-color: #f0f0f0;
+	padding: 4px 8px;
+	border-radius: 20px;
+	margin-right: 5px;
+	font-size: 30px;
+}
+
+
 	.highlighted-text {
     color: #61be87!important  /* Text color for highlighting */
 	}
@@ -1704,11 +1751,9 @@ input, select, textarea {
 
 /* Button */
 
-	input[type="button"],
+	
 	input[type="submit"],
-	input[type="reset"],
-	button,
-	.button {
+	input[type="reset"] {
 		background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
@@ -1730,62 +1775,49 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #61be87;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
 	}
 
-		input[type="button"]:hover,
+		
 		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
-			background-color: #43bff0;
+		input[type="reset"]:hover {
+			background-color: #68cc92;
 			color: #fff !important;
 		}
 
-		input[type="button"]:active,
+	
 		input[type="submit"]:active,
-		input[type="reset"]:active,
-		button:active,
-		.button:active {
-			background-color: #3BA8D3;
+		input[type="reset"]:active {
+			background-color: #54a676;
 			top: 1px;
 		}
 
-		input[type="button"].large,
+		
 		input[type="submit"].large,
-		input[type="reset"].large,
-		button.large,
-		.button.large {
+		input[type="reset"].large {
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
 		}
 
-		input[type="button"].alt,
 		input[type="submit"].alt,
-		input[type="reset"].alt,
-		button.alt,
-		.button.alt {
+		input[type="reset"].alt {
 			background-color: #444;
 			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
 		}
 
-			input[type="button"].alt:hover,
+			
 			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
+			input[type="reset"].alt:hover {
 				background-color: #4f4f4f;
 				color: #fff !important;
 			}
 
-			input[type="button"].alt:active,
+			
 			input[type="submit"].alt:active,
-			input[type="reset"].alt:active,
-			button.alt:active,
-			.button.alt:active {
+			input[type="reset"].alt:active {
 				background-color: #3f3f3f;
 			}
 
@@ -1964,23 +1996,13 @@ input, select, textarea {
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			width: 100%; /* You can adjust this value to make the boxes wider or narrower */
+			height: auto; /* This will adjust the height automatically based on the content */
 		}
 
 			.box.style1 h3 {
 				margin-bottom: 0.5em;
 			}
-
-		.box.style2 h3 {
-			margin-bottom: 0.25em;
-		}
-
-		.box.style2 .image {
-			position: relative;
-			left: 2em;
-			top: 2em;
-			margin: -4em 0 4em -4em;
-			width: auto;
-		}
 
 /* Icons */
 
@@ -2044,11 +2066,6 @@ input, select, textarea {
 			background-color: #fff;
 		}
 
-		.wrapper.style2 {
-			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
-		}
-
 		.wrapper.style3 {
 			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
@@ -2056,7 +2073,7 @@ input, select, textarea {
 
 		.wrapper.style4 {
 			background-color: #303030;
-			color: #999;
+			color: rgb(255, 255, 255);
 			text-shadow: -1px -1px 0px #181818;
 		}
 
@@ -2082,7 +2099,10 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		font-family: 'JetBrains Mono', monospace;
+		background-color: rgba(0, 0, 0, 0.7); /* Transparent background with 50% opacity */
+   		backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+    	transition: background-color 0.3s, backdrop-filter 0.3s; /* Add a smooth transition */
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -2182,44 +2202,6 @@ input, select, textarea {
 	#contact footer {
 		font-size: 0.9em;
 	}
-
-/* Copyright */
-
-	#copyright {
-		color: #666;
-		font-size: 1em;
-		line-height: 1em;
-		list-style: none;
-		padding-left: 0;
-		margin-bottom: 0;
-	}
-
-		#copyright li {
-			display: inline-block;
-			border-left: solid 1px rgba(0, 0, 0, 0.5);
-			box-shadow: -1px 0px 0px 0px rgba(255, 255, 255, 0.1);
-			padding: 0 0 0 1em;
-			margin: 0 0 0 1em;
-		}
-
-			#copyright li:first-child {
-				border: 0;
-				box-shadow: none;
-				padding-left: 0;
-				margin-left: 0;
-			}
-
-		#copyright a {
-			-moz-transition: color .2s ease-in-out;
-			-webkit-transition: color .2s ease-in-out;
-			-ms-transition: color .2s ease-in-out;
-			transition: color .2s ease-in-out;
-			color: inherit;
-		}
-
-			#copyright a:hover {
-				color: #777;
-			}
 
 /* Large */
 
@@ -2336,22 +2318,16 @@ input, select, textarea {
 
 		/* Button */
 
-			input[type="button"],
 			input[type="submit"],
-			input[type="reset"],
-			button,
-			.button {
+			input[type="reset"] {
 				text-align: center;
 				font-size: 1.2em;
 				width: 100%;
 				padding: 1em 0 1em 0;
 			}
 
-				input[type="button"].large,
 				input[type="submit"].large,
-				input[type="reset"].large,
-				button.large,
-				.button.large {
+				input[type="reset"].large {
 					font-size: 1.2em;
 					letter-spacing: 0;
 				}
@@ -2413,7 +2389,6 @@ input, select, textarea {
 				}
 
 				.box.style1 {
-					max-width: 32em;
 					margin-left: auto !important;
 					margin-right: auto !important;
 				}
