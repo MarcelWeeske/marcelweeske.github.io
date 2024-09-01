@@ -9,7 +9,7 @@ import Layout from "../layouts/main.astro";
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="About Me"
-      description="Hello 👋 I'm a frontend engineer from Essen, Germany. I'm passionate about building new products and learning new technology."
+      description="Hello 👋 I'm a fullstack and data engineer from Essen, Germany. I'm passionate about building new products and learning new technology."
     />
 
     <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
@@ -18,7 +18,11 @@ import Layout from "../layouts/main.astro";
     <p
       class="text-sm leading-6 text-gray-600 dark:text-neutral-400 sm:leading-7 lg:leading-8 sm:text-base lg:text-lg"
     >
-      Front-end cutter 🧑🏻‍💻, back-end amateur 🤷🏻‍♂️, operations digging holes person 🤦🏻‍♂️.
+    Full Stack and Data Engineering expert with extensive experience in a wide range of technologies and programming languages. Passionate about solving complex problems – with a bit of effort, anything is possible!
+    
+    Do you have an exciting project? Feel free to contact me!
+    
+    I speak fluent German, English, and Spanish, and I can also converse in French.
     </p>
 
     <h2
@@ -31,7 +35,7 @@ import Layout from "../layouts/main.astro";
         experiences.map((experience, loop) => {
           return (
             <>
-              {loop == 0 || loop == 1 ? (
+              {loop == 0 || loop == 1 ||loop==2 ? (
                 <div class="pb-10 border-l border-gray-200 dark:border-neutral-700">
                   <AboutExperience
                     dates={experience.dates}
