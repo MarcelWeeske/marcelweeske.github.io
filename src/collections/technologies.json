@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Html 5",
+		"icon": "/assets/images/techicons/html.png"
+	},
+	{
+		"name": "Tailwind",
+		"icon": "/assets/images/techicons/tailwind.png"
+	},
+	{
+		"name": "Javascript",
+		"icon": "/assets/images/techicons/javascript.png"
+	},
+	{
+		"name": "Typescript",
+		"icon": "/assets/images/techicons/typescript.png"
+	},
+	{
+		"name": "Node.js",
+		"icon": "/assets/images/techicons/nodejs.png"
+	},
+	{
+		"name": "Nuxt.js",
+		"icon": "/assets/images/techicons/nuxtjs.png"
+	},
+	{
+		"name": "Vue.js",
+		"icon": "/assets/images/techicons/vuejs.png"
+	},
+	{
+		"name": "Docker",
+		"icon": "/assets/images/techicons/docker.png"
+	},
+	{
+		"name": "Python",
+		"icon": "/assets/images/techicons/python.png"
+	},
+	{
+		"name": "Kubernetes",
+		"icon": "/assets/images/techicons/kubernetes.png"
+	}
+]

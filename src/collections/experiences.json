@@ -17,14 +17,14 @@
 		"dates": "October 2018 · May 2021",
 		"role": "Data-Engineer",
 		"company": "TQS Integration Lt.",
-		"description": "Development and Maintenance of Data Networks",
+		"description": "Data Network Development",
 		"logo": "/assets/images/experiences/tqsintegration.ico"
 	},
 	{
 		"dates": "February 2018 · October 2018",
 		"role": "Embedded Systems Engineer",
 		"company": "Robert Bosch GmbH",
-		"description": "Development if Control and Evaluation Software for electrical and pneumatic Testing Benches",
+		"description": "Development of Control and Evaluation Software",
 		"logo": "/assets/images/experiences/bosch.ico"
 	}
 ]
