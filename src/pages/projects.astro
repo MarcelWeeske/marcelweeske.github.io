@@ -1,7 +1,10 @@
 ---
 import projects from "../collections/projects.json";
+import references from "../collections/references.json";
+import Separator from "../components/home/separator.astro";
 import PageHeading from "../components/page-heading.astro";
 import Project from "../components/project.astro";
+import Reference from "../components/reference.astro";
 import Layout from "../layouts/main.astro";
 ---
 
@@ -27,6 +30,34 @@ import Layout from "../layouts/main.astro";
           )
         })
       }
+    </div>
+  </section>
+  <Separator text="Don't just take my word for it" />
+  <section class="relative z-20 my-12 px-7 lg:px-0">
+    <div class="max-w-2xl mx-auto">
+      <PageHeading
+      title="References"
+        description="Hear from some of the people who have worked with me"
+      />
+    </div>
+    <div>
+      <div
+        class="z-50 grid items-stretch w-full max-w-4xl mx-auto grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
+      >
+      {
+        references.map((reference) => {
+          return (
+            <Reference
+              name={reference.name}
+              text={reference.text}
+              image={reference.image}
+              role={reference.role}
+              company={reference.company}
+            />
+          )
+        })
+      }
+      </div>
     </div>
   </section>
 </Layout>

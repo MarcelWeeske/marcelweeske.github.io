@@ -1,0 +1,16 @@
+---
+const { name, role, company, text, image } = Astro.props;
+---
+
+<div class="relative h-full border border-dashed rounded-2xl border-neutral-300 dark:border-neutral-600 p-6">
+  <div class="float-right ml-4 mb-4">
+    <div class="rounded-full w-32 h-32 overflow-hidden bg-gray-200 dark:bg-gray-700">
+      <img src={image} alt={name} class="w-full h-full object-cover"/>
+    </div>
+  </div>
+  <div class="text-sm text-neutral-600 dark:text-neutral-400">{text}</div>
+  <div class="mt-4 clear-both">
+    <p class="font-semibold tracking-tight text-neutral-900 dark:text-neutral-100">{name}</p>
+    <p class="text-sm text-gray-600 dark:text-gray-400">{role}, {company}</p>
+  </div>
+</div>
